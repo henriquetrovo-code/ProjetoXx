@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.calculadoraController">
+   <children>
+      <TextField fx:id="txtNumero2" layoutX="68.0" layoutY="260.0" promptText="Digite um número">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtNumero1" layoutX="68.0" layoutY="178.0" promptText="Digite um número">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnSomar" layoutX="42.0" layoutY="414.0" mnemonicParsing="false" onAction="#Somar" text="Somar" />
+      <Button fx:id="btnSubtrair" layoutX="107.0" layoutY="414.0" mnemonicParsing="false" onAction="#Subtrair" text="Subtrair" />
+      <Button fx:id="btnMultiplicar" layoutX="180.0" layoutY="414.0" mnemonicParsing="false" onAction="#Multiplicar" text="Multiplicar" />
+      <Button fx:id="btnDividir" layoutX="266.0" layoutY="414.0" mnemonicParsing="false" onAction="#Dividir" text="Dividir" />
+      <Label layoutX="51.0" layoutY="79.0" text="Calcular Dois Números">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResultado" layoutX="59.0" layoutY="341.0" text="Resultado:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnReset" layoutX="40.0" layoutY="460.0" mnemonicParsing="false" onAction="#Resetar" prefHeight="26.0" prefWidth="278.0" text="Reset" />
+   </children>
+</AnchorPane>
