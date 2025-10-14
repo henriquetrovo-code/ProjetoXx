@@ -7,10 +7,14 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="360.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.loginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.loginController">
    <children>
+      <ImageView fitHeight="600.0" fitWidth="360.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Downloads/black.jpg" />
+         </image>
+      </ImageView>
       <Button layoutX="98.0" layoutY="454.0" mnemonicParsing="false" onAction="#sair" text="Sair" />
       <Button layoutX="213.0" layoutY="454.0" mnemonicParsing="false" onAction="#entrar" text="Entrar" />
       <PasswordField fx:id="txtSenha" layoutX="67.0" layoutY="326.0" prefHeight="26.0" prefWidth="226.0" promptText="Informe sua senha">
@@ -21,15 +25,10 @@
          <font>
             <Font size="18.0" />
          </font></TextField>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="80.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="186.0" fitWidth="181.0" layoutX="90.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Downloads/R.png" />
+            <Image url="@../../../../../Downloads/Copilot_20251014_170603.png" />
          </image>
       </ImageView>
-      <Text layoutX="20.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="App do Governo do Tocantins">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Text>
    </children>
 </AnchorPane>
