@@ -16,9 +16,14 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="49.0" layoutY="260.0" mnemonicParsing="false" onAction="#abrirGame" prefHeight="40.0" prefWidth="258.0" text="Game">
+      <Button layoutX="49.0" layoutY="260.0" mnemonicParsing="false" onAction="#abrirGame" prefHeight="40.0" prefWidth="258.0" text="Top Gear">
          <font>
-            <Font size="18.0" />
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="49.0" layoutY="322.0" mnemonicParsing="false" onAction="#abrirTiroRailon" prefHeight="40.0" prefWidth="258.0" text="Atire no Railon">
+         <font>
+            <Font name="System Bold" size="18.0" />
          </font>
       </Button>
    </children>

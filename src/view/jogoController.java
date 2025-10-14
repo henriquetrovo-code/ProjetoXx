@@ -25,6 +25,7 @@ public class jogoController {
     private final double alturaTela=600;
     private int pontuacao=0;
     private ArrayList<Obstaculos> obstaculos= new ArrayList();
+    private ArrayList<Tiro> tiros= new ArrayList();
     private Random random = new Random();
     private boolean esquerda, direita;
     
@@ -57,7 +58,7 @@ public class jogoController {
     	});
     	
     	AnimationTimer timer=new AnimationTimer() {
-    		long ultimoSpaw=0;
+    		long ultimoSpaw=0, ultimoSpawTiro=0;
     		long intervaloSpaw=1_000_000_000;
     		
     		@Override
@@ -134,6 +135,15 @@ public class jogoController {
     	final double largura=70;
     	final double altura=60;
     	Obstaculos(double x, double y) {
+    		this.x=x;
+    		this.y=y;
+    	}
+    }
+    class Tiro{
+    	double x,y;
+    	final double largura=70;
+    	final double altura=60;
+    	Tiro(double x, double y) {
     		this.x=x;
     		this.y=y;
     	}

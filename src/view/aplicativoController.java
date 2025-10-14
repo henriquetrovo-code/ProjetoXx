@@ -59,5 +59,9 @@ public class aplicativoController {
 		//abrirPaginaInicial();
 	}
 	
+	@FXML
+	private void abrirTiroRailon() {
+		carregarTela("atireRailon.fxml");
+	}
 	
 }
