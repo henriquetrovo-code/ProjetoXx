@@ -18,17 +18,17 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="54.0" layoutY="264.0" mnemonicParsing="false" onAction="#abrirIMC" prefHeight="40.0" prefWidth="258.0" text="Calculadora IMC">
+      <Button layoutX="53.0" layoutY="264.0" mnemonicParsing="false" onAction="#abrirIMC" prefHeight="40.0" prefWidth="258.0" text="Calculadora IMC">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="54.0" layoutY="317.0" mnemonicParsing="false" onAction="#abrirGame" prefHeight="40.0" prefWidth="258.0" text="Top Gear">
+      <Button layoutX="54.0" layoutY="318.0" mnemonicParsing="false" onAction="#abrirGame" prefHeight="40.0" prefWidth="258.0" text="Top Gear">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="54.0" layoutY="374.0" mnemonicParsing="false" onAction="#abrirTiroRailon" prefHeight="40.0" prefWidth="258.0" text="Atire no Railon">
+      <Button layoutX="54.0" layoutY="372.0" mnemonicParsing="false" onAction="#abrirTiroRailon" prefHeight="40.0" prefWidth="258.0" text="Atire no Railon">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -38,5 +38,10 @@
             <Image url="@../../../../../Downloads/Copilot_20251014_170603.png" />
          </image>
       </ImageView>
+      <Button layoutX="53.0" layoutY="423.0" mnemonicParsing="false" onAction="#abrirMedia" prefHeight="40.0" prefWidth="258.0" text="Calcular Média">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

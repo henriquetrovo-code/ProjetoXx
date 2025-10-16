@@ -64,4 +64,8 @@ public class aplicativoController {
 		carregarTela("atireRailon.fxml");
 	}
 	
+	@FXML
+	private void abrirMedia() {
+		carregarTela("media.fxml");
+	}
 }
