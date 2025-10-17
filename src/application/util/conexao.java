@@ -10,9 +10,9 @@ public class conexao {
 	//USUÁRIO DO BANCO DE DADOS
 	private static final String USER="root";
 	//SENHA DO BANCO DE DADOS
-	private static final String PASS="";
+	private static final String PASS="Senai2016@";
 	
-	public static Connection getConnection() throws SQLExcepetion{
+	public static Connection getConnection() throws SQLException{
 		return DriverManager.getConnection(URL,USER,PASS);
 	}
 	
