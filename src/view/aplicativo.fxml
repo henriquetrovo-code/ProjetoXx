@@ -43,5 +43,10 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
+      <Button layoutX="51.0" layoutY="475.0" mnemonicParsing="false" onAction="#abrirIdade" prefHeight="40.0" prefWidth="258.0" text="Calcular Idade">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

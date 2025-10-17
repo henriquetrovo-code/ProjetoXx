@@ -68,4 +68,9 @@ public class aplicativoController {
 	private void abrirMedia() {
 		carregarTela("media.fxml");
 	}
+	
+	@FXML
+	private void abrirIdade() {
+		carregarTela("idade.fxml");
+	}
 }
