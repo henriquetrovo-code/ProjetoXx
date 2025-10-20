@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.usuarioController">
    <children>
       <ImageView fitHeight="600.0" fitWidth="360.0" pickOnBounds="true">
          <image>
@@ -25,10 +25,10 @@
             <Font name="System Bold" size="19.0" />
          </font>
       </Label>
-      <TextField layoutX="59.0" layoutY="225.0" prefHeight="40.0" prefWidth="238.0" promptText="Nome Usuário" />
-      <TextField layoutX="59.0" layoutY="280.0" prefHeight="40.0" prefWidth="238.0" promptText="Login" />
-      <TextField layoutX="59.0" layoutY="335.0" prefHeight="40.0" prefWidth="238.0" promptText="Senha" />
-      <Button layoutX="141.0" layoutY="400.0" mnemonicParsing="false" text="Salvar">
+      <TextField fx:id="txtUsuario" layoutX="59.0" layoutY="225.0" prefHeight="40.0" prefWidth="238.0" promptText="Nome Usuário" />
+      <TextField fx:id="txtLogin" layoutX="59.0" layoutY="280.0" prefHeight="40.0" prefWidth="238.0" promptText="Login" />
+      <TextField fx:id="txtSenha" layoutX="59.0" layoutY="335.0" prefHeight="40.0" prefWidth="238.0" promptText="Senha" />
+      <Button fx:id="btSalvar" layoutX="141.0" layoutY="400.0" mnemonicParsing="false" onAction="#Salvar" text="Salvar">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

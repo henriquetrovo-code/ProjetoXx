@@ -12,7 +12,7 @@ public class usuarioDAO {
 		Connection conn=null;
 		PreparedStatement query=null;
 		
-		String sql="insert usuario (nomeCompleto,login,senha) values (?,?,?)";
+		String sql="insert usuario (nomeCompleto,login,senha)" + "values (?,?,?)";
 		
 		query= conn.prepareStatement(sql);
 		query.setString(1, u.getNomeCompleto());
@@ -22,6 +22,7 @@ public class usuarioDAO {
 		int insert = query.executeUpdate();
 		
 		return insert > 0;
+		
 		} catch(Exception e) {
 			e.printStackTrace();
 			return false;
