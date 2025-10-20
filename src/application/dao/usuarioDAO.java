@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 
 import application.model.usuarioModel;
+import application.util.conexao;
 
 public class usuarioDAO {
 	//INSERIOR USUARIO
@@ -12,6 +13,7 @@ public class usuarioDAO {
 		Connection conn=null;
 		PreparedStatement query=null;
 		
+		conn=conexao.getConnection();
 		String sql="insert usuario (nomeCompleto,login,senha)" + "values (?,?,?)";
 		
 		query= conn.prepareStatement(sql);
