@@ -13,6 +13,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import application.dao.usuarioDAO;
+
 public class loginController {
 
     @FXML
@@ -34,8 +36,9 @@ public class loginController {
         try {
             String usuario = txtUsuario.getText();
             String senha = txtSenha.getText();
-
-            if (usuario.equals("Henrique") && senha.equals("admin")) {
+            
+            usuarioDAO dao = new usuarioDAO();
+            if (dao.autenticar(usuario, senha)) {
                 Alert aviso = new Alert(Alert.AlertType.CONFIRMATION);
                 aviso.setTitle("Confirmação");
                 aviso.setHeaderText(null);
