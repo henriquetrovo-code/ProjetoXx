@@ -13,12 +13,12 @@
             <Image url="@../../../../../Downloads/black.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="54.0" layoutY="210.0" mnemonicParsing="true" onAction="#abrirCalculadora" prefHeight="40.0" prefWidth="257.0" text="Calculadora">
+      <Button layoutX="54.0" layoutY="211.0" mnemonicParsing="true" onAction="#abrirCalculadora" prefHeight="40.0" prefWidth="257.0" text="Calculadora">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="53.0" layoutY="264.0" mnemonicParsing="false" onAction="#abrirIMC" prefHeight="40.0" prefWidth="258.0" text="Calculadora IMC">
+      <Button layoutX="54.0" layoutY="264.0" mnemonicParsing="false" onAction="#abrirIMC" prefHeight="40.0" prefWidth="258.0" text="Calculadora IMC">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -38,12 +38,17 @@
             <Image url="@../../../../../Downloads/Copilot_20251014_170603.png" />
          </image>
       </ImageView>
-      <Button layoutX="53.0" layoutY="423.0" mnemonicParsing="false" onAction="#abrirMedia" prefHeight="40.0" prefWidth="258.0" text="Calcular Média">
+      <Button layoutX="54.0" layoutY="425.0" mnemonicParsing="false" onAction="#abrirMedia" prefHeight="40.0" prefWidth="258.0" text="Calcular Média">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="51.0" layoutY="475.0" mnemonicParsing="false" onAction="#abrirIdade" prefHeight="40.0" prefWidth="258.0" text="Calcular Idade">
+      <Button layoutX="54.0" layoutY="476.0" mnemonicParsing="false" onAction="#abrirIdade" prefHeight="40.0" prefWidth="258.0" text="Calcular Idade">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="54.0" layoutY="529.0" mnemonicParsing="false" onAction="#abrirCarros" prefHeight="40.0" prefWidth="258.0" text="Carros">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

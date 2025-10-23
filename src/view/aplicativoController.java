@@ -73,4 +73,9 @@ public class aplicativoController {
 	private void abrirIdade() {
 		carregarTela("idade.fxml");
 	}
+	
+	@FXML
+	private void abrirCarros() {
+		carregarTela("Carros.fxml");
+	}
 }

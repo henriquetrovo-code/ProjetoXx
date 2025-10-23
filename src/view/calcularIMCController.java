@@ -11,6 +11,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import view.calculadoraController; 
 
@@ -56,6 +57,24 @@ public class calcularIMCController {
         } catch (IOException e) {
             e.printStackTrace();
             
+        }
+    }
+    @FXML
+    public void logout(MouseEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("login.fxml"));
+            Parent root = loader.load();
+
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root));
+            stage.setTitle("Login");
+            stage.show();
+
+            // Fecha a tela atual
+            Stage atual = (Stage) ((Label) event.getSource()).getScene().getWindow();
+            atual.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

@@ -49,5 +49,6 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
+      <Label fx:id="labelLogout" layoutX="308.0" layoutY="24.0" onMouseClicked="#logout" text="Log Out" textFill="WHITE" />
    </children>
 </AnchorPane>
